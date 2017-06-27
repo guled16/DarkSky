@@ -29,7 +29,7 @@ class CurrentWeatherView: UIViewController {
                         if let temperature = currentWeather.apparentTemperature{
                             self.tem.text = "\(temperature)"
                         } else{
-                            self.tem.text = "-"
+                            self.tem.text = "nil"
                         }
                     }
                 }
